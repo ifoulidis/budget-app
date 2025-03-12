@@ -15,7 +15,7 @@ model Category {
   id        String       @id @default(auto()) @map("_id") @db.ObjectId
   createdAt DateTime     @default(now())
   name      String
-  parentId  String?      @unique @db.ObjectId
+  parentId  String?      @db.ObjectId
   type      CategoryType
 
   // Relations
