@@ -10,7 +10,7 @@ export default function PageHeader({ children, title, ...props }: Props) {
   return (
     <>
       <Head>
-        <title>{`${title} - Bidou`}</title>
+        <title>{`${title} - Budget App`}</title>
       </Head>
       <Group mb="xl" justify="space-between">
         <Title size="h2">{title}</Title>

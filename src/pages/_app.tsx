@@ -26,7 +26,7 @@ export default trpc.withTRPC(function App(
   return (
     <>
       <Head>
-        <title>Bidou</title>
+        <title>Budget App</title>
         <meta name="description" content="Manage your family budget" />
         <link rel="icon" href="/favicon.ico" />
         <meta
